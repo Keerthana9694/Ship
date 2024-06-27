@@ -82,14 +82,15 @@ public class Login_Page {
 
                if (day.getText().equals(str2)) ;
                {
-                   driver.findElement(By.xpath(".//input[@title =\"Checkbox\"]")).isSelected();
+                  boolean b=  driver.findElement(By.xpath(".//input[@title =\"Checkbox\"]")).isSelected();
+                  System.out.println(b);
                    break;
                }
            }
        }
 
     }
-T
+
 
 
 
