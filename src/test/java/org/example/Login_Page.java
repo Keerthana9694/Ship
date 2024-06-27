@@ -78,9 +78,9 @@ public class Login_Page {
        List<WebElement> days = driver.findElements(By.xpath(".//p[@class=\"bg-white lg:font-semibold lg:font-Open lg:text-sm \"]"));
 
            for (WebElement day : days) {
-               for(String str1 : str) {
+               for(String str2 : str) {
 
-               if (day.getText().equals(str1)) ;
+               if (day.getText().equals(str2)) ;
                {
                    driver.findElement(By.xpath(".//input[@title =\"Checkbox\"]")).isSelected();
                    break;
@@ -89,7 +89,7 @@ public class Login_Page {
        }
 
     }
-
+T
 
 
 
